@@ -1,0 +1,66 @@
+.home__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 88px;
+  min-height: 100vh;
+}
+.home__main__logo__container {
+  height: 45px;
+  width: 202px;
+  margin: 20px 40px;
+}
+.home__main__logo {
+  height: 100%;
+  width: 100%;
+}
+.home__main__text__container h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.875rem;
+  color: #005061;
+  margin: 30px 10px 5px;
+}
+.home__main__text__container p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  color: #000000;
+}
+.home__main__button {
+  text-decoration: none;
+  color: #fff;
+  width: 468px;
+  height: 56px;
+  border: 2px solid#017189;
+  background-color: #017189;
+  border-radius: 8px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .home__main__text__container h3 {
+    margin: 30px 10px 15px;
+  }
+  .home__main__button {
+    width: 372px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* .home__main__button {
+    width: 272px;
+  } */
+  .home__main {
+    padding: 88px 30px;
+  }
+}
+ 
