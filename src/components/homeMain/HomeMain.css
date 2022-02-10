@@ -31,11 +31,13 @@
   font-size: 1.125rem;
   color: #000000;
 }
+
 .home__main__button {
-  text-decoration: none;
-  color: #fff;
-  width: 468px;
-  height: 56px;
+  display: block;
+  text-transform: capitalize;
+  width: 40%;
+  cursor: pointer;
+  padding: 14px 28px;
   border: 2px solid#017189;
   background-color: #017189;
   border-radius: 8px;
@@ -46,21 +48,24 @@
   text-align: center;
   margin-top: 20px;
 }
+.home__main__button a,
+.home__main__button a:hover,
+.home__main__button a:visited,
+.home__main__button a:active {
+  color: #fff;
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 768px) {
   .home__main__text__container h3 {
     margin: 30px 10px 15px;
   }
-  .home__main__button {
-    width: 372px;
+  .home__main__button{
+    width:90%;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* .home__main__button {
-    width: 272px;
-  } */
   .home__main {
     padding: 88px 30px;
   }
 }
- 

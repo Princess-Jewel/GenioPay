@@ -15,8 +15,12 @@ const HomeMain = () => {
           <h3>How would you like to use Geniopay?</h3>
           <p>Custom views tailored to specific role on the platform</p>
         </div>
-        <HomeMainCard/>
-        <Link to='/'><button className="home__main__button">Continue</button></Link>
+        <HomeMainCard />
+       {/* <div className="home__main__button__home"> */}
+       <button type="button" className="home__main__button">
+          <Link to="/">Continue</Link>
+        </button>
+       {/* </div> */}
       </div>
     </section>
   );
